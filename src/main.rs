@@ -38,8 +38,9 @@ fn save_cofig(path: &str, value: Config) {
 }
 
 fn main() {
-    let value = load_config("src/config.toml");
+    let path = "config.toml";
+    let value = load_config(path);
     let updated_value = update_config(value);
-    save_cofig("src/config.toml", updated_value);
+    save_cofig(path, updated_value);
     println!("Value updated successfully");
 }

@@ -1,4 +1,4 @@
 [settings]
-server = "127.0.0.1"
+server = "127.0.0.2"
 name = "localhost"
 port = 5000
